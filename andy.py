@@ -43,8 +43,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('mohd9182cl@gmail.com', 'king9182@')
-    server.sendmail('mohd9182cl@gmail.com', to, content)
+    server.login('@gmail.com', '******')
+    server.sendmail('l@gmail.com', to, content)
     server.close()
 def pdf_reader():
     
